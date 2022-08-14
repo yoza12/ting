@@ -65,7 +65,8 @@ local comf12
 
 if authcheck1 == true then
     ReyMysterio()
-else
-    Undertaker()
 end
 
+if authcheck1 == false then
+    Undertaker()
+end
